@@ -1,6 +1,14 @@
 # behave-selenium-allure_testing
 A repository for API testing and UI testing using behave and selenium
 
+# Getting the Source
+To start building the project, you need to grab the code from the repository. Follow these steps:
+* Install git bash if on a windows machine
+* Get the link to the code by clicking on code as below and click on the clipboard to copy the link
+![Alt text](start.png?raw=true "Clone link")
+* Run git bash from programs and once the window is open run the below command:
+	* git clone (insert the link copied to the clipboard here)
+* You should now have a copy of the source code
 
 # Environment Setup
 Before initiating the project make sure you have python installed. Then proceed with the following steps
