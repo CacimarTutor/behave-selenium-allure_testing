@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test CRUD methods in Sample REST API testing framework",
+    "children" : [ {
+      "name" : "POST post example",
+      "uid" : "4f3f2c0bc1a33ee8",
+      "parentUid" : "b48103c7e82e20cab5b6c29431a485dd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621430231318,
+        "stop" : 1621430231361,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b48103c7e82e20cab5b6c29431a485dd"
+  } ]
+}

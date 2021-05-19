@@ -1,0 +1,167 @@
+{
+  "uid" : "4f3f2c0bc1a33ee8",
+  "name" : "POST post example",
+  "fullName" : "Test CRUD methods in Sample REST API testing framework: POST post example",
+  "historyId" : "9a399002bf6e5b76aa71811369ffad16",
+  "time" : {
+    "start" : 1621430231318,
+    "stop" : 1621430231361,
+    "duration" : 43
+  },
+  "status" : "broken",
+  "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'Send a POST HTTP request')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When Send a POST HTTP request')\n\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'Send a POST HTTP request')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When Send a POST HTTP request')\n\n",
+    "steps" : [ {
+      "name" : "Given I set sample REST API url",
+      "time" : {
+        "start" : 1621430231358,
+        "stop" : 1621430231358,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I Set POST posts api endpoint",
+      "time" : {
+        "start" : 1621430231358,
+        "stop" : 1621430231359,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I Set HEADER param request content type as \"application/json.\"",
+      "time" : {
+        "start" : 1621430231359,
+        "stop" : 1621430231359,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Set request Body",
+      "time" : {
+        "start" : 1621430231359,
+        "stop" : 1621430231360,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Send a POST HTTP request",
+      "time" : {
+        "start" : 1621430231360,
+        "stop" : 1621430231360,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'Send a POST HTTP request')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When Send a POST HTTP request')\n\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then I receive valid HTTP response code 201",
+      "time" : {
+        "start" : 1621430231361,
+        "stop" : 1621430231361,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Response BODY \"POST\" is non-empty.",
+      "time" : {
+        "start" : 1621430231361,
+        "stop" : 1621430231361,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'Response BODY \"POST\" is non-empty.')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then Response BODY \"POST\" is non-empty.')\n\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test CRUD methods in Sample REST API testing framework"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4f3f2c0bc1a33ee8.json",
+  "parameterValues" : [ ]
+}

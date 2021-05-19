@@ -1,0 +1,11 @@
+[ {
+  "uid" : "45599faf96b6ef10",
+  "name" : "POST post example",
+  "time" : {
+    "start" : 1621423287879,
+    "stop" : 1621423287887,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

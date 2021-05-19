@@ -1,0 +1,22 @@
+{
+  "9a399002bf6e5b76aa71811369ffad16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f3f2c0bc1a33ee8",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'Send a POST HTTP request')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When Send a POST HTTP request')\n\n",
+      "time" : {
+        "start" : 1621430231318,
+        "stop" : 1621430231361,
+        "duration" : 43
+      }
+    } ]
+  }
+}
