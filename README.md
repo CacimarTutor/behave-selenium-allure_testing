@@ -1,5 +1,5 @@
 # behave-selenium-allure_testing
-A repository for API testing and UI testing using behave and selenium
+A repository for API testing and UI testing using behave, selenium and allure in python
 
 # Getting the Source
 To start building the project, you need to grab the code from the repository. Follow these steps:
@@ -18,8 +18,11 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* pip install django
 	* pip install django-tastypie
 	* pip install selenium
+	* pip install behave
 	* pip install allure-pytest
 	* pip install pytest-django
+	* pip install allure-behave
+
 
 * Open powershell and run as administrator. Then run the following commands
 	* Set-ExecutionPolicy RemoteSigned -scope CurrentUser 
