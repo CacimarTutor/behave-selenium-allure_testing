@@ -29,4 +29,28 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh') 
 	* scoop install allure
 
+#### Additional Requirements
+* Download chrome drive to be used with selenium at https://chromedriver.chromium.org/downloads
+* Create a folder in C:\ drive known as bin and copy the downloaded driver
+* Add this folder(C:\bin) to the path environment using the procedure at https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+* Install jenkins from https://www.jenkins.io/
+* Install Google Chrome from https://www.google.com/chrome/
+* Install Pycharm from https://www.jetbrains.com/pycharm/
+* Install PostMan from https://www.postman.com/
+
+
+### Starting the django project
+* If you have a zip of the project extract it to get the folder: behave_selenium_allure_testing
+* If you clone this repository you will already have this folder
+* Open command prompt and run the following commands
+	* cd behave_selenium_allure_testing
+	* python manage.py runserver
+	* [These commands will start the django application on localhost:8000]
+	* Launch Google chrome and navigate to localhost:8000/admin
+	* You should have the following page
+	![Image](django.PNG?raw=true "Clone link")
+
+
+
+
 
