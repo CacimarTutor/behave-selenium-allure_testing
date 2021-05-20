@@ -67,7 +67,7 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* cd features
 	* behave apitesting.feature
 	* [The output for running the behave test is shown below]
-	![Image](behavetest.PNG?raw=true "Clone link")
+	![Image](behavetest2.PNG?raw=true "Clone link")
 
 
 
