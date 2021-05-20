@@ -30,7 +30,7 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* scoop install allure
 
 #### Additional Requirements
-* Download chrome drive to be used with selenium at https://chromedriver.chromium.org/downloads
+* Download chrome driver to be used with selenium at https://chromedriver.chromium.org/downloads
 * Create a folder in C:\ drive known as bin and copy the downloaded driver
 * Add this folder(C:\bin) to the path environment using the procedure at https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 * Install jenkins from https://www.jenkins.io/
@@ -49,6 +49,14 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* Launch Google chrome and navigate to localhost:8000/admin
 	* You should have the following page
 	![Image](django.PNG?raw=true "Clone link")
+	* [This is the interface to be used for performing tests using selenium]
+##### Running the selenium test
+* Open another command prompt and run the following command
+	* cd sampleapi
+	* python -m pytest 
+	* [This will run the selenium test for testing the admin login and show the below output]
+	![Image](seleniumtest.PNG?raw=true "Clone link")
+
 
 
 
