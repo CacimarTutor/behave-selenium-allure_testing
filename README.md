@@ -50,12 +50,24 @@ Before initiating the project make sure you have python installed. Then proceed 
 	* You should have the following page
 	![Image](django.PNG?raw=true "Clone link")
 	* [This is the interface to be used for performing tests using selenium]
-##### Running the selenium test
+
+#### Running the selenium test [UI testing]
 * Open another command prompt and run the following command
+	* cd behave_selenium_allure_testing
 	* cd sampleapi
 	* python -m pytest 
-	* [This will run the selenium test for testing the admin login and show the below output]
+	* [This will run the selenium test for testing the admin login; in the process Google chrome window automatically opens and test logins are entered automatically by selenium and the below output is shown]
 	![Image](seleniumtest.PNG?raw=true "Clone link")
+
+
+#### Running the behave test [API Testing]
+* An API is currently running in localhost:8000/api
+* The POST method will be tested in this section using behave
+* In the open command prompt(which is still in the sampleapi direction), run the following command 
+	* cd features
+	* behave apitesting.feature
+	* [The output for running the behave test is shown below]
+	![Image](behavetest.PNG?raw=true "Clone link")
 
 
 
